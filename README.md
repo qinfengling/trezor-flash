@@ -25,15 +25,15 @@ make flash_jlink
 ## FAQ
 - How to build the bootloader ?
 
-Find the guide in offical repo, https://github.com/trezor/trezor-mcu#how-to-build-the-trezor-bootloader-and-firmware
+  Find the guide in offical repo, https://github.com/trezor/trezor-mcu#how-to-build-the-trezor-bootloader-and-firmware
 
-I generate the bootloader with the following:
+  I generate the bootloader with the following:
 
-```bash
-git clone https://github.com/trezor/trezor-mcu.git
-cd trezor-mcu
-git checkout v1.6.2 -b v1.6.2
-./build.sh bl1.5.0
-```
+  ```bash
+  git clone https://github.com/trezor/trezor-mcu.git
+  cd trezor-mcu
+  git checkout v1.6.2 -b v1.6.2
+  ./build.sh bl1.5.0
+  ```
 
-Then bootloader will be reside in `./build/` directory.
+  Then bootloader will be reside in `./build/` directory.
