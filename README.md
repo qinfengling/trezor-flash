@@ -37,3 +37,7 @@ make flash_jlink
   ```
 
   Then bootloader will be reside in `./build/` directory.
+
+ - How to enter the bootloader mode ?
+
+   Press both button, then power on the Trezor, you can see the bootloader screen
